@@ -1,0 +1,13 @@
+body{background-color: darkgray;}
+
+.boxs{background: darkslategray;color: floralwhite; height: 200px; width: 300px;overflow: scroll;position: absolute; left: 200px; top: 100px;right: 200px;}
+
+.div1 {position: relative; perspective: 100px; width: 700px; }
+
+.div2 { margin: 300px; background: tomato; color: teal; font-family: arial black; font-size: 30px; padding: 20px; width:400px; height: 70px;text-align: center; text-transform: uppercase; transform-style: preserve-3d; transform: rotateX(45deg);}
+
+.m {width: 330px;height: 210px; background-color: yellow;}
+.m:hover {background-color: thistle; width: 200px; height: 200px;}
+
+.n{width: 330px;height: 210px; background-color: rgb(233, 47, 62);transition: background-color 3s, width 2s}
+.n:hover {background-color: rgb(221, 83, 221); width: 1200px; height: 600px; }
